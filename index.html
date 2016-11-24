@@ -1,1 +1,39 @@
-Hello world
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta http-equiv="Content-Script-Type" content="text/javascript" />
+    <title>Beautiful effect collection | naosk8</title>
+    <meta name="title" content="Beautiful effect collection | naosk8e" />
+    <meta name="description" content="Beautiful effect collection with css and javascript" />
+    <link rel="apple-touch-icon" href="./img/apple-touch-icon.png" />
+    <link rel="shortcut icon" href="./img/favicon.ico" />
+    <script type="text/javascript" charset="utf-8" src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular-animate.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.1/angular-route.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.1/angular-touch.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="./js/main.js"></script>
+    <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <meta name="apple-mobile-web-app-title" content="BeautifUI" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <base href="/beautiful-effect/"/>
+</head>
+<body ng-app="mainApp">
+    <div class="view-animate-container">
+        <div ng-view class="view-animate" ng-class="animation"></div>
+    </div>
+</body>
+
+<!-- index -->
+<script type='text/ng-template' id='html/index.html'>
+    <div class="jumbotron text-center bg-snow">
+        <div class="container">
+            <h1>Snow</h1>
+            <div class="snow"></div>
+        </div>
+    </div>
+</script>
+</html>
