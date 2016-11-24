@@ -1,0 +1,44 @@
+.bg-snow {
+    background-color: cadetblue;
+}
+.snow {
+    background-color: transparent !important;
+    opacity: 1 !important;
+    z-index: 3;
+    background-image: url(//cdn.shopify.com/s/files/1/1239/4020/t/5/assets/snow1.png?15812228026772606024),url(//cdn.shopify.com/s/files/1/1239/4020/t/5/assets/snow2.png?15812228026772606024),url(//cdn.shopify.com/s/files/1/1239/4020/t/5/assets/snow3.png?15812228026772606024);
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    -webkit-animation: snow 10s linear infinite;
+    -moz-animation: snow 10s linear infinite;
+    -ms-animation: snow 10s linear infinite;
+    animation: snow 10s linear infinite;
+}
+
+@keyframes snow{
+    0%{background-position:0px 0px, 0px 0px, 0px 0px}
+    100%{background-position:500px 1000px, 400px 400px, 300px 300px}
+}
+@-moz-keyframes snow{
+    0%{background-position:0px 0px, 0px 0px, 0px 0px}
+    100%{background-position:500px 1000px, 400px 400px, 300px 300px}
+}
+@-webkit-keyframes snow{
+    0%{background-position:0px 0px, 0px 0px, 0px 0px}
+    100%{background-position:500px 1000px, 400px 400px, 300px 300px}
+}
+@-ms-keyframes snow{
+    0%{background-position:0px 0px, 0px 0px, 0px 0px}
+    100%{background-position:500px 1000px, 400px 400px, 300px 300px}
+}
+
+.container {
+    height: 100%;
+}
+
+.jumbotron {
+    padding: 0px;
+    margin: 0px;
+}
